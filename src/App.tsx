@@ -7,7 +7,6 @@ import { ConfettiController } from "./components/ConfettiController";
 import { storage } from "./utils/storage";
 import type { FortuneItem } from "./utils/fortuneMap";
 import type { StoredResult } from "./utils/storage";
-import { Analytics } from "@vercel/analytics/next";
 
 type AppState = "initial" | "shuffling" | "result";
 
@@ -45,7 +44,6 @@ function App() {
 
   return (
     <>
-      <Analytics />
       <div className="min-h-screen flex items-center justify-center p-4">
         <ConfettiController
           trigger={showConfetti}
