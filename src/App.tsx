@@ -81,9 +81,9 @@ function App() {
           <div className="space-y-8 md:space-y-10">
             <FortuneCard result={fortuneResult} />
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }} className="text-center">
-              <button onClick={handleReset} className="text-white/80 hover:text-white text-sm underline" aria-label="다시 시작하기">
+              {/* <button onClick={handleReset} className="text-white/80 hover:text-white text-sm underline" aria-label="다시 시작하기">
                 다시 시작하기
-              </button>
+              </button> */}
             </motion.div>
           </div>
         )}
