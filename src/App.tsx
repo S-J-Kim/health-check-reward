@@ -40,7 +40,7 @@ function App() {
   };
 
   const handleConfettiComplete = () => setShowConfetti(false);
-  const handleReset = () => { storage.clear(); setFortuneResult(null); setAppState('initial'); };
+  // const handleReset = () => { storage.clear(); setFortuneResult(null); setAppState('initial'); };
 
   return (
     <div className="min-h-screen flex items-center justify-center p-4">
